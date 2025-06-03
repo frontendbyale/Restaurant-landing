@@ -1,0 +1,47 @@
+---
+import MenuItems from "./MenuItems.astro";
+
+const menuItems = [
+  {
+    image: '/images/menu-plato1.jpg',
+    title: 'Ravioles artesanales',
+    description: 'Con salsa de tomate casera y albahaca fresca.',
+    price: '$3500',
+  },
+  {
+    image: '/images/menu-plato2.jpg',
+    title: 'Hamburguesa gourmet',
+    description: 'Pan artesanal, carne angus, cheddar y alioli.',
+    price: '$4200',
+  },
+  {
+    image: '/images/menu-plato3.jpg',
+    title: 'Ensalada mediterránea',
+    description: 'Tomates cherry, queso feta, aceitunas y oliva extra virgen.',
+    price: '$2800',
+  },
+  
+];
+---
+
+<section id="menu" class="bg-gray-100 dark:bg-gray-800 py-20 px-4">
+  <div class="max-w-7xl mx-auto text-center mb-12">
+    <h2 class="text-3xl font-bold mb-4">Nuestro Menú</h2>
+    <p class="text-gray-600 dark:text-gray-300">
+      Platos seleccionados con ingredientes frescos y sabores únicos.
+    </p>
+  </div>
+
+  <div class="max-w-7xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+    {
+      menuItems.map(item => (
+        <MenuItems
+          image={item.image}
+          title={item.title}
+          description={item.description}
+          price={item.price}
+        />
+      ))
+    }
+  </div>
+</section>
