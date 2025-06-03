@@ -1,0 +1,39 @@
+---
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 py-10">
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+    <!-- Info restaurante -->
+    <div>
+      <h3 class="text-lg font-bold mb-2">Restaurante Moderno</h3>
+      <p>Dirección: Av. del Sabor 1234<br />Tel: (011) 1234-5678</p>
+      <p class="mt-2">Horarios: Lun a Dom, 12 a 00hs</p>
+    </div>
+
+    <!-- Enlaces rápidos -->
+    <div>
+      <h3 class="text-lg font-bold mb-2">Secciones</h3>
+      <ul class="space-y-1">
+        <li><a href="#inicio" class="hover:underline">Inicio</a></li>
+        <li><a href="#nosotros" class="hover:underline">Nosotros</a></li>
+        <li><a href="#menu" class="hover:underline">Menú</a></li>
+        <li><a href="#contacto" class="hover:underline">Contacto</a></li>
+      </ul>
+    </div>
+
+    <!-- Redes sociales -->
+    <div>
+      <h3 class="text-lg font-bold mb-2">Seguinos</h3>
+      <ul class="space-y-1">
+        <li><a href="https://instagram.com" target="_blank" rel="noopener" class="hover:underline">Instagram</a></li>
+        <li><a href="https://facebook.com" target="_blank" rel="noopener" class="hover:underline">Facebook</a></li>
+        <li><a href="https://wa.me/5491123456789" target="_blank" rel="noopener" class="hover:underline">WhatsApp</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="text-center text-sm mt-10 text-gray-500 dark:text-gray-400">
+    &copy; {year} Restaurante Moderno. Todos los derechos reservados.
+  </div>
+</footer>
