@@ -23,8 +23,8 @@ Este proyecto es una landing page de una sola página, con secciones clave como:
 ## 📦 Instalación
 
 ```bash
-git clone https://github.com/frontendbyale/restaurante-moderno.git
-cd restaurante-moderno
+git clone https://github.com/frontendbyale/Restaurant-landing.git
+cd Restaurant-landing
 npm install
 npm run dev
 ```
