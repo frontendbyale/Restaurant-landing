@@ -23,7 +23,7 @@ Este proyecto es una landing page de una sola página, con secciones clave como:
 ## 📦 Instalación
 
 ```bash
-git clone https://github.com/tuusuario/restaurante-moderno.git
+git clone https://github.com/frontendbyale/restaurante-moderno.git
 cd restaurante-moderno
 npm install
 npm run dev
@@ -33,22 +33,12 @@ npm run dev
 
 ## ✉️ Formulario de contacto
 
-Este sitio usa [Formspree](https://formspree.io/) para enviar mensajes sin backend propio. Reemplazá `YOUR_FORM_ID` en el `index.astro` con tu ID personal.
+Este sitio usa [Formspree](https://formspree.io/) para enviar mensajes sin backend propio.
 
-## 📂 Estructura de componentes
+## 🌐 Deploy Demo
 
-- `src/components/Navbar.astro`
-- `src/components/MenuItem.astro`
-- `src/components/Footer.astro`
-
-## 🌐 Deploy
-
-Podés publicarlo fácilmente en [Netlify](https://netlify.com), [Vercel](https://vercel.com) o GitHub Pages.
+[Restaurante_Moderno](https://restomoderno.netlify.app)
 
 ## 📸 Vista previa
 
-![preview](./public/screenshot.jpg) <!-- reemplazar con una captura real si querés -->
-
-## 📝 Licencia
-
-MIT — Libre de usar y modificar.
+![preview](./public/images/screenshot.png)
